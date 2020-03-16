@@ -26,7 +26,8 @@ def assembled_matrix
     conventional_produce = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"],
     organic_produce = ["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"]
   ]
-  produce.sorted
+  produce = conventional_produce.sorted + organic_produce.sorted
+  produce
 end
 
 def sorted_matrix
